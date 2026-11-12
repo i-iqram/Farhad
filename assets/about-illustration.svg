@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="t">
+  <title id="t">Illustration: a visa desk in Sharjah with passport, entry permit, Emirates ID and approval stamp</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#041d17"/>
+      <stop offset=".55" stop-color="#0b3b30"/>
+      <stop offset="1" stop-color="#1a6b58"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dea6"/>
+      <stop offset=".5" stop-color="#d4a85a"/>
+      <stop offset="1" stop-color="#a8792f"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9dcc2"/>
+      <stop offset="1" stop-color="#cdb98f"/>
+    </linearGradient>
+    <linearGradient id="pass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13574a"/>
+      <stop offset="1" stop-color="#062a22"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e4efe9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f0d39a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f0d39a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#041d17" flood-opacity=".35"/>
+    </filter>
+    <pattern id="star8" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#d4a85a" stroke-opacity=".10">
+        <rect x="16" y="16" width="24" height="24"/>
+        <rect x="16" y="16" width="24" height="24" transform="rotate(45 28 28)"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="620" fill="url(#sky)"/>
+  <rect width="800" height="380" fill="url(#star8)"/>
+  <g fill="#f7f2e8">
+    <circle cx="80" cy="60" r="1.6"/><circle cx="170" cy="120" r="1.2"/><circle cx="260" cy="45" r="1.8"/>
+    <circle cx="350" cy="95" r="1.1"/><circle cx="460" cy="40" r="1.5"/><circle cx="540" cy="130" r="1.2"/>
+    <circle cx="700" cy="70" r="1.4"/><circle cx="760" cy="150" r="1.1"/><circle cx="40" cy="170" r="1.2"/>
+  </g>
+  <!-- crescent -->
+  <circle cx="640" cy="95" r="80" fill="url(#glow)"/>
+  <circle cx="640" cy="95" r="34" fill="url(#gold)"/>
+  <circle cx="655" cy="86" r="30" fill="#082e26"/>
+
+  <!-- far skyline -->
+  <g fill="#0f4a3d">
+    <rect x="0" y="250" width="50" height="160"/><rect x="45" y="215" width="38" height="195"/>
+    <rect x="90" y="270" width="60" height="140"/><rect x="150" y="190" width="34" height="220"/>
+    <path d="M184 410V230l22-30 22 30v180z"/><rect x="235" y="260" width="55" height="150"/>
+    <rect x="520" y="240" width="48" height="170"/><rect x="568" y="200" width="30" height="210"/>
+    <path d="M598 410V250h40v-30h20v190z"/><rect x="665" y="270" width="60" height="140"/>
+    <rect x="725" y="225" width="40" height="185"/><rect x="765" y="280" width="35" height="130"/>
+  </g>
+  <!-- window lights -->
+  <g fill="#f0d39a" fill-opacity=".55">
+    <rect x="55" y="235" width="5" height="7"/><rect x="68" y="260" width="5" height="7"/><rect x="55" y="290" width="5" height="7"/>
+    <rect x="160" y="215" width="5" height="7"/><rect x="170" y="250" width="5" height="7"/><rect x="160" y="300" width="5" height="7"/>
+    <rect x="530" y="260" width="5" height="7"/><rect x="550" y="300" width="5" height="7"/><rect x="578" y="230" width="5" height="7"/>
+    <rect x="735" y="250" width="5" height="7"/><rect x="750" y="290" width="5" height="7"/><rect x="680" y="300" width="5" height="7"/>
+  </g>
+
+  <!-- mosque (centre) -->
+  <g>
+    <rect x="300" y="300" width="200" height="110" fill="#0b3b30"/>
+    <path d="M330 300c0-48 31-82 70-90 39 8 70 42 70 90z" fill="url(#gold)"/>
+    <path d="M400 210v-22" stroke="#d4a85a" stroke-width="3"/>
+    <path d="M400 176a9 9 0 1 0 6 15 7 7 0 1 1-6-15z" fill="#f0d39a"/>
+    <!-- minarets -->
+    <rect x="282" y="220" width="16" height="190" fill="#0b3b30"/>
+    <path d="M280 220l10-36 10 36z" fill="url(#gold)"/>
+    <rect x="279" y="262" width="22" height="6" fill="#d4a85a"/>
+    <rect x="502" y="220" width="16" height="190" fill="#0b3b30"/>
+    <path d="M500 220l10-36 10 36z" fill="url(#gold)"/>
+    <rect x="499" y="262" width="22" height="6" fill="#d4a85a"/>
+    <!-- arches -->
+    <g fill="#f0d39a" fill-opacity=".8">
+      <path d="M330 410v-50a14 14 0 0 1 28 0v50z"/>
+      <path d="M386 410v-62a14 14 0 0 1 28 0v62z"/>
+      <path d="M442 410v-50a14 14 0 0 1 28 0v50z"/>
+    </g>
+  </g>
+  <rect x="0" y="405" width="800" height="10" fill="#062a22"/>
+
+  <!-- desk -->
+  <path d="M0 410h800v210H0z" fill="url(#desk)"/>
+  <path d="M0 410h800v8H0z" fill="#b99c66" opacity=".55"/>
+
+  <!-- entry permit document -->
+  <g filter="url(#sh)" transform="rotate(-6 330 500)">
+    <rect x="215" y="400" width="250" height="190" rx="10" fill="#fbf8f1"/>
+    <rect x="215" y="400" width="250" height="30" rx="10" fill="#0b3b30"/>
+    <rect x="215" y="418" width="250" height="12" fill="#0b3b30"/>
+    <text x="232" y="420" font-family="monospace" font-size="12" font-weight="700" fill="#f0d39a" letter-spacing="2">UAE · ENTRY PERMIT</text>
+    <rect x="232" y="446" width="58" height="70" rx="5" fill="#d9e6df"/>
+    <circle cx="261" cy="471" r="13" fill="#13574a"/>
+    <path d="M238 516c3-18 13-26 23-26s20 8 23 26z" fill="#13574a"/>
+    <g fill="#cfc4ad">
+      <rect x="304" y="450" width="140" height="8" rx="4"/><rect x="304" y="468" width="110" height="8" rx="4"/>
+      <rect x="304" y="486" width="128" height="8" rx="4"/><rect x="304" y="504" width="80" height="8" rx="4"/>
+      <rect x="232" y="532" width="210" height="6" rx="3"/><rect x="232" y="546" width="180" height="6" rx="3"/>
+      <rect x="232" y="560" width="196" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- approved stamp on document -->
+  <g transform="rotate(-16 418 530)" opacity=".9">
+    <circle cx="418" cy="530" r="42" fill="none" stroke="#1f8a5a" stroke-width="4"/>
+    <circle cx="418" cy="530" r="34" fill="none" stroke="#1f8a5a" stroke-width="1.5"/>
+    <text x="418" y="526" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#1f8a5a" letter-spacing="1">APPROVED</text>
+    <text x="418" y="542" text-anchor="middle" font-family="monospace" font-size="9" fill="#1f8a5a" letter-spacing="1">SHARJAH</text>
+  </g>
+
+  <!-- passport -->
+  <g filter="url(#sh)" transform="rotate(10 120 505)">
+    <rect x="45" y="430" width="140" height="185" rx="10" fill="url(#pass)"/>
+    <rect x="53" y="438" width="124" height="169" rx="6" fill="none" stroke="#d4a85a" stroke-opacity=".5"/>
+    <circle cx="115" cy="510" r="30" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <circle cx="115" cy="510" r="18" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M97 510h36M115 492v36" stroke="#d4a85a" stroke-width="2"/>
+    <text x="115" y="468" text-anchor="middle" font-family="monospace" font-size="12" font-weight="700" fill="#f0d39a" letter-spacing="3">PASSPORT</text>
+    <rect x="95" y="568" width="40" height="22" rx="4" fill="none" stroke="#d4a85a" stroke-width="2"/>
+  </g>
+
+  <!-- emirates id card -->
+  <g filter="url(#sh)" transform="rotate(8 620 520)">
+    <rect x="520" y="460" width="210" height="130" rx="14" fill="url(#card)"/>
+    <rect x="520" y="460" width="210" height="28" rx="14" fill="#13574a"/>
+    <rect x="520" y="474" width="210" height="14" fill="#13574a"/>
+    <text x="536" y="479" font-family="monospace" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="2">IDENTITY CARD</text>
+    <rect x="536" y="500" width="48" height="58" rx="6" fill="#d9e6df"/>
+    <circle cx="560" cy="520" r="10" fill="#13574a"/>
+    <path d="M541 558c2-14 10-20 19-20s17 6 19 20z" fill="#13574a"/>
+    <rect x="598" y="504" width="40" height="28" rx="5" fill="url(#gold)"/>
+    <path d="M598 518h40M618 504v28" stroke="#a8792f" stroke-width="1"/>
+    <g fill="#c4d3cb">
+      <rect x="598" y="542" width="110" height="7" rx="3.5"/><rect x="598" y="556" width="80" height="7" rx="3.5"/>
+      <rect x="536" y="570" width="170" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- pen -->
+  <g transform="rotate(-28 520 600)" filter="url(#sh)">
+    <rect x="440" y="592" width="150" height="12" rx="6" fill="#062a22"/>
+    <rect x="560" y="592" width="30" height="12" rx="3" fill="url(#gold)"/>
+    <path d="M440 592l-18 6 18 6z" fill="#d4a85a"/>
+  </g>
+
+  <!-- sparkle accents -->
+  <g fill="#f0d39a">
+    <path d="M500 380l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity=".8"/>
+    <path d="M110 380l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" opacity=".6"/>
+  </g>
+</svg>
