@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://i-iqram.github.io/Farhad/sitemap.xml
